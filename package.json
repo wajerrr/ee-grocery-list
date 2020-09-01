@@ -1,7 +1,7 @@
 {
   "name": "ee-grocery-list",
   "version": "1.0.0",
-  "main": "index.js",
+  "repository": "https://github.com/wajerrr/ee-grocery-list",
   "author": "Przemek Wajerowicz",
   "license": "MIT",
   "scripts": {
