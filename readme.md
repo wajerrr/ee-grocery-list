@@ -29,7 +29,8 @@ To improve:
 
 ## Api
 
- - Api uses simple node [express](http://expressjs.com/) server to serve the api stored in
-   memory. It includes Unit tests.
+ - Api uses simple node [express](http://expressjs.com/) server to serve the api
+ - Data is stored in memory. 
+ - It includes Unit tests.
  - There is no docker, and The api is served via localhost.
 
