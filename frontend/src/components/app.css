@@ -1,0 +1,32 @@
+.app-toolbar {
+  display: flex;
+}
+
+.app-header {
+  background-color: #1795d4;
+  height: 8rem;
+  padding: 1rem;
+  display: flex;
+}
+
+.app-header .logo {
+  height: 8rem
+}
+
+.app-header h1 {
+  color: white;
+  justify-content: center;
+  align-self: center;
+}
+
+.app-main {
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.app-footer {
+  background-color: #aaaaaa;
+  height: 8rem;
+  padding: 1rem;
+  display: flex;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ee-grocery-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Przemek Wajerowicz",
+  "license": "MIT",
+  "scripts": {
+    "start-api": "npm run --prefix api start",
+    "start-frontend": "npm run --prefix frontend start",
+    "test-api": "npm run --prefix api test",
+    "test-frontend": "npm run --prefix frontend test",
+    "test": "npm-run-all --parallel test-api test-frontend",
+    "start": "npm-run-all --parallel start-api start-frontend",
+    "postinstall": "cd api && yarn install && cd ../frontend && yarn install"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
